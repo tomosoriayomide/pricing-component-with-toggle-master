@@ -32,45 +32,53 @@
         <div class="hhh">
           <a href="">Annually</a>
           <div class="toggle">
-            <div class="togglein"></div>
+            <div class="togglein" id="bar" onclick="toggleBar()"></div>
+            <div class="toggleout" id="bar2" onclick="original()"></div>
           </div>
           <a href="">Monthly</a>
         </div>
       </div>
       <div class="body">
         <div class="frist" id="basic">
-          <p>Basic</p>
-          <h1>&dollar;19.99</h1>
+          <p id="fade">Basic</p>
+          <h1 id="cont1">&dollar;19.99</h1>
+          <h1 id="cont2">&dollar;199.99</h1>
           <hr />
-          <p>500 GB Storage</p>
+          <p id="fade">500 GB Storage</p>
           <hr />
-          <p>2 Users Allowed</p>
+          <p id="fade">2 Users Allowed</p>
           <hr />
-          <p>Send up to 3 GB</p>
+          <p id="fade">Send up to 3 GB</p>
           <hr />
           <button class="learn">LEARN MORE</button>
         </div>
         <div class="frists" id="pro">
-          <p>Professional</p>
-          <h1>&dollar;24.99</h1>
+          <p id="fade">Professional</p>
+          <h1 id="cont1a">&dollar;24.99</h1>
+          <h1 id="cont2a">&dollar;249.99</h1>
           <hr />
-          <p>500 GB Storage</p>
+          <p id="fade">1 TB Storage</p>
           <hr />
-          <p>2 Users Allowed</p>
+          <p id="fade">5 Users Allowed</p>
           <hr />
-          <p>Send up to 3 GB</p>
+          <p id="fade">Send up to 10 GB</p>
           <hr />
           <button class="color">LEARN MORE</button>
         </div>
         <div class="frist" id="master">
-          <p>Master</p>
-          <h1><span class="dolls">&dollar;</span><span>39.99</span></h1>
+          <p id="fade">Master</p>
+          <h1 id="cont1b">
+            <span class="dolls">&dollar;</span><span>39.99</span>
+          </h1>
+          <h1 id="cont2b">
+            <span class="dolls">&dollar;</span><span>399.99</span>
+          </h1>
           <hr />
-          <p>500 GB Storage</p>
+          <p id="fade">2 TB Storage</p>
           <hr />
-          <p>2 Users Allowed</p>
+          <p id="fade">10 Users Allowed</p>
           <hr />
-          <p>Send up to 3 GB</p>
+          <p id="fade">Send up to 20 GB</p>
           <hr />
           <button class="learn">LEARN MORE</button>
         </div>
@@ -80,7 +88,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Tomosori Ayomide</a>.
+        >. Coded by <a href="frontendmentor.io/profile/tomosoriayomide">Tomosori Ayomide</a>.
         <code>Young Lite</code>
       </div>
     </div>
@@ -113,5 +121,6 @@
   Learn More
   
  -->
+    <script src="script.js"></script>
   </body>
 </html>
